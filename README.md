@@ -4,6 +4,8 @@
 (Authentication + Realtime Database), Cloudinary để lưu ảnh và React Navigation.
 Đây là phần phát triển tiếp của Bài thực hành 5.
 
+Báo cáo Bài thực hành 6: [Nguyễn Thị Hà – B23DCCC057](docs/Bao-cao-TH6-UDUChat.docx).
+
 ## Tính năng
 
 | Nhóm | Chức năng |
