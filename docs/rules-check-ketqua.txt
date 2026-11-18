@@ -1,0 +1,29 @@
+Linh=Z2eErHZEH0TDplxtxnH9yBrQGMA2
+Minh Anh=uQyIolRVx7XVDSek43f725amBht2
+Hoàng Nam=4gUdrJFyEjUnf0uTNMzFmznAZBV2
+
+--- 1. Chỉ thành viên mới đọc/ghi tin nhắn ---
+✅ Linh ghi tin vào /messages/4gUdrJFyEjUnf0uTNMzFmznAZBV2_uQyIolRVx7XVDSek43f725amBht2
+     → PERMISSION_DENIED PERMISSION_DENIED: Permission denied
+✅ Linh đọc tin của nhóm/chat mình tham gia (Z2eErHZEH0TDplxtxnH9yBrQGMA2_uQyIolRVx7XVDSek43f725amBht2)
+     → ĐƯỢC PHÉP
+✅ Linh gửi tin giả danh người khác (senderId ≠ mình)
+     → PERMISSION_DENIED PERMISSION_DENIED: Permission denied
+✅ Linh đọc hộp thư /userChats/uQyIolRVx7XVDSek43f725amBht2 của Minh Anh
+     →  Permission denied
+
+--- 2. Chỉ người gửi mới thu hồi được ---
+✅ Linh thu hồi tin -P6hp2dZvDzzjJV0iALS của người khác (recalled = true)
+     → PERMISSION_DENIED PERMISSION_DENIED: Permission denied
+✅ Minh Anh thu hồi tin của CHÍNH MÌNH
+     → ĐƯỢC PHÉP
+
+--- 3. Chỉ ghi trạng thái gõ / cảm xúc của chính mình ---
+✅ Linh bật "đang soạn tin" của chính mình
+     → ĐƯỢC PHÉP
+✅ Linh bật "đang soạn tin" thay người khác
+     → PERMISSION_DENIED PERMISSION_DENIED: Permission denied
+✅ Linh thả cảm xúc thay người khác
+     → PERMISSION_DENIED PERMISSION_DENIED: Permission denied
+
+✅ Mọi kết quả đúng như rules mong đợi.
